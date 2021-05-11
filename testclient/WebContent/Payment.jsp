@@ -14,11 +14,28 @@
 <script src="components/jquery-3.2.1.min.js"></script>
 <script src="components/pay.js"></script>
 
-
-
-
-
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<div class="container">
+		<a class="navbar-brand" href="#">GadgetBadget</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarResponsive" aria-controls="navbarResponsive"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">FundingBodies
+						<span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Customer</a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#">Researcher</a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
 </head>
 <body>
 
@@ -72,7 +89,9 @@
 		<div class="row">
 			<div class="col-md-5">
 				<h5>
-					<i class="fa fa-road"></i> ACME CO INC.
+					<i class="fa fa-road"></i>GadgetBadget (GB) is a company who funds
+					innovative projects and help the young researches to sell their
+					products via company’s online platform
 				</h5>
 				<div class="row">
 					<div class="col-6">
